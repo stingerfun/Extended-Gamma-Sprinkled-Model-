@@ -19,16 +19,13 @@ This folder contains data from real populations analyzed in the study:
 
 Each subfolder contains genetic mapping data used for crossover interference analysis.
 
-### /simulations
+### /tables 
 
-This folder contains data from simulation studies:
-
-- Table 1: Comparison of standard and extended gamma-sprinkling models
-- Table 3: Results of applying extended gamma-sprinkling model to analyzed chromosomes
+This folder contains data from simulation tables for different chromosome maps with step of size 5cM:
 
 ## Data Format
 
-Population data is provided in standard genetic mapping file formats. Simulation data is provided in CSV format.
+Population data is provided in standard Multipoint software genetic mapping file CSV format.
 
 ## Usage
 
@@ -40,6 +37,6 @@ Sapielkin S, Frenkel Z, Privman E, Korol AB. Statistical analysis and simulation
 
 ## License
 
-This data is made available under the [choose an appropriate license].
+This data is made available free
 
 For any questions about the data, please contact the corresponding authors.
