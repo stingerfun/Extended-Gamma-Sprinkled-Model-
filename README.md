@@ -258,7 +258,7 @@ where ρ = 1 indicates no overall interference.
 
 For questions, issues, or collaborations:
 
-- **Email**: ssapielkin@campus.haifa.ac.il
+- **Email**: shaul@evo.haifa.ac.il
 - **Issues**: Open a GitHub issue
 - **Documentation**: See examples/ directory
 
