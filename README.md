@@ -3,7 +3,7 @@
 [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This package implements the **extended gamma-sprinkled (GS) model** for analyzing crossover interference in genetic recombination data. Unlike traditional models that only account for positive interference and no interference, this model simultaneously considers three types of crossover interference:
+This package implements the **extended gamma-sprinkled (GS) model** for analyzing crossover interference in genetic recombination data. Unlike traditional models that only account for positive interference and no interference, this model simultaneously considers three components:
 
 - **Positive interference** (ν > 1): Crossover repulsion
 - **No interference** (ν = 1): Independent crossovers (Haldane model)  
@@ -11,7 +11,7 @@ This package implements the **extended gamma-sprinkled (GS) model** for analyzin
 
 ## 📖 Background
 
-Crossover interference (COI) refers to the non-random distribution of crossover events along chromosomes during meiosis. The standard gamma-sprinkled model accounts for positive interference and no interference but ignores potential negative interference, which has been reported in various organisms including *Neurospora*, yeast, *Drosophila*, *Arabidopsis*, and several crop species.
+Crossover interference (COI) refers to the non-random distribution of crossover events along chromosomes during meiosis. The standard gamma-sprinkled model accounts for the co-presence of two mechanisms, positive interference and no interference, but ignores the potential contribution  of negative interference, which has been reported in various organisms including *Neurospora*, yeast, *Drosophila*, *Arabidopsis*, and several plant species.
 
 Our extended model uses a mixture of three gamma distributions to capture the full spectrum of interference patterns that may occur simultaneously on the same chromosome.
 
@@ -76,7 +76,7 @@ python examples/simulate_data.py
 This script demonstrates:
 - Simulation under different interference models
 - Statistical comparison between models
-- Power analysis for detecting interference
+- Robust analysis for detecting interference
 - Visualization of results
 
 ### Analyze Real Genetic Data
@@ -86,10 +86,9 @@ python examples/analyze_real_data.py
 ```
 
 This script shows how to:
-- Load genetic mapping data
+- Load genetic  data
 - Test different interference models
-- Estimate model parameters
-- Compare model adequacy
+
 
 ## 🏗️ Package Structure
 
