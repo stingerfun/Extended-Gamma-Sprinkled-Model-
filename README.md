@@ -268,7 +268,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - University of Haifa, Institute of Evolution
-- The research was supported by [funding sources]
 - Thanks to the genetic mapping community for valuable feedback
 
 ---
